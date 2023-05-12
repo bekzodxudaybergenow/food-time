@@ -1,3 +1,48 @@
+:root {
+  --METALLIC-GREEN: #396C03;
+  --AMERICAN-ORANGE: #FF8B00;
+  --GRANITE-GRAY: #676767;
+  --BLACK-OLIVE: #3F3F3F;
+  --CHINESE-SILVER: #C7C7C7;
+  --QUICK-SILVER: #9F9F9F;
+  --ISABELLINE: #F0F4EC;
+  --FLORAL-WHITE: #FFF9F2;
+  --WHITE: #FFFFFF;
+  --BLACK: #000000;
+  --first-family: "Poppins", sans-serif;
+  --second-family: "Merienda", cursive;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-Regular.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins/Poppins-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-Bold.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Merienda";
+  src: url("../fonts/Merienda/Merienda-Bold.woff2") format("woff2"), url("../fonts/Merienda/Merienda-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
 *,
 *::before,
 *::after {
@@ -25,4 +70,8 @@ body {
   max-width: 1280px;
   padding: 0 20px;
   margin: 0 auto;
+}
+
+.flex {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
