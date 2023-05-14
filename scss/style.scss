@@ -1,4 +1,5 @@
 @import './vars';
+@import './header';
 
 *,
 *::before,
@@ -26,4 +27,17 @@ body {
 }
 .flex {
     display: flex;
+}
+a {
+    text-decoration: none;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 154px;
+    width: 100%;
+    height: 58px;
+    background-color: var(--METALLIC-GREEN);
+    border-radius: 225px;
 }

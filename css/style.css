@@ -5,6 +5,7 @@
   --BLACK-OLIVE: #3F3F3F;
   --CHINESE-SILVER: #C7C7C7;
   --QUICK-SILVER: #9F9F9F;
+  --SILVER-SAND: #C4C4C4;
   --ISABELLINE: #F0F4EC;
   --FLORAL-WHITE: #FFF9F2;
   --WHITE: #FFFFFF;
@@ -43,6 +44,101 @@
   font-weight: 700;
   font-style: normal;
 }
+.header {
+  border-bottom: 1px solid var(--CHINESE-SILVER);
+  background-color: rgba(57, 108, 3, 0.1);
+  padding: 18px 0;
+}
+
+.header-row {
+  height: 65px;
+  align-items: center;
+}
+
+.logo {
+  max-width: 147px;
+  height: 50px;
+  outline-color: var(--AMERICAN-ORANGE);
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  margin-left: auto;
+}
+
+.nav {
+  align-items: center;
+  -moz-column-gap: 70px;
+       column-gap: 70px;
+}
+
+.nav-link {
+  font-weight: 500;
+  line-height: 36px;
+  color: var(--BLACK-OLIVE);
+  outline-color: var(--AMERICAN-ORANGE);
+  transition: ease-in-out 0.2s;
+}
+.nav-link:hover {
+  color: var(--METALLIC-GREEN);
+}
+
+.nav-link-lang {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+}
+.nav-link-lang path {
+  transition: ease-in-out 0.3s;
+}
+.nav-link-lang:hover path {
+  fill: var(--METALLIC-GREEN);
+}
+
+.action {
+  width: 242px;
+  align-items: center;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+  margin-left: 100px;
+}
+
+.action-login-btn {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--WHITE);
+  outline-color: var(--AMERICAN-ORANGE);
+  transition: ease-in-out 0.2s;
+}
+.action-login-btn:hover {
+  background-color: #2f5a00;
+}
+
+.action-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: var(--METALLIC-GREEN);
+  border-radius: 50px;
+  outline-color: var(--AMERICAN-ORANGE);
+  transition: ease-in-out 0.2s;
+}
+.action-card:hover {
+  background-color: #2f5a00;
+}
+
+.action-card img {
+  width: 28px;
+  height: 30px;
+}
+
 *,
 *::before,
 *::after {
@@ -74,4 +170,19 @@ body {
 
 .flex {
   display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 154px;
+  width: 100%;
+  height: 58px;
+  background-color: var(--METALLIC-GREEN);
+  border-radius: 225px;
 }/*# sourceMappingURL=style.css.map */
