@@ -354,15 +354,15 @@
 }
 
 .blog {
-  min-height: 600px;
   background-color: rgba(255, 139, 0, 0.05);
-  padding: 50px 0;
   position: relative;
+  margin: auto 0;
 }
 
 .blog-row {
-  height: 100vh;
   align-items: center;
+  min-height: 600px;
+  padding: 50px 0;
 }
 
 .blog-content {
@@ -416,7 +416,7 @@
 
 .blog-img {
   position: absolute;
-  top: 160px;
+  top: 60px;
   right: 12px;
   max-width: 751px;
   width: 100%;
