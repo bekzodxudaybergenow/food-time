@@ -526,6 +526,7 @@
   margin: 0 auto;
   transition: ease-in-out 0.2s;
   position: relative;
+  padding-right: 30px;
 }
 .advantage-content-img-btn.btn:hover {
   opacity: 0.9;
@@ -536,8 +537,11 @@
   width: 16px;
   height: 10px;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  right: 60px;
+  transform: translateY(-50%);
+  background-image: url("../img/advantage/advantage-arrow.svg");
+  background-repeat: no-repeat;
 }
 
 *,
