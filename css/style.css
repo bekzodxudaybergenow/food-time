@@ -15,6 +15,7 @@
   --BRIGHT-GRAY: #EDEDED;
   --PHILIPPINE-SILVER: #B3B3B3;
   --DAVYS-GREY: #525252;
+  --OLD-LACE: #FFF3E5;
   --first-family: "Poppins", sans-serif;
   --second-family: "Merienda", cursive;
 }
@@ -661,6 +662,56 @@
 
 .faq-answer + .faq-answer {
   padding-top: 40px;
+}
+
+.app {
+  background-color: var(--OLD-LACE);
+  padding: 38px 0;
+}
+
+.app-row {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 28px;
+       column-gap: 28px;
+}
+
+.app-content {
+  max-width: 500px;
+}
+
+.app-content-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: var(--METALLIC-GREEN);
+  margin-bottom: 12px;
+}
+
+.app-content-desc {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  padding-right: 54px;
+  color: var(--GRANITE-GRAY);
+  margin-bottom: 30px;
+}
+
+.app-content-market {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.app-content-market img {
+  display: block;
+}
+
+.app-img {
+  max-width: 711px;
+  max-height: 474px;
+  border-radius: 28px;
+  overflow: hidden;
 }
 
 *,
