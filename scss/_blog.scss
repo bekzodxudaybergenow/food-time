@@ -1,12 +1,12 @@
 .blog {
     background-color: rgb(255, 139, 0, .05);
-    position: relative;
     margin: auto 0;
 }
 .blog-row {
     align-items: center;
     min-height: 600px;
     padding: 50px 0;
+    position: relative;
 }
 .blog-content {
     max-width: 567px;

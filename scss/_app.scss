@@ -29,6 +29,9 @@
     display: flex;
     column-gap: 20px;
 }
+.app-content-market a {
+    outline-color: var(--AMERICAN-ORANGE);
+}
 .app-content-market img{
     display: block;
 }
